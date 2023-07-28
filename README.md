@@ -10,3 +10,10 @@ To create this game, I used unreal engine Visual Scripting Blueprints as they ar
 - When player interacts with actors that influence Widget(UI), they still use BluePrint Interfaces by logging into player First and After to Blue Print Widgets.
 - In the end, I tried to use as few " event ticks " as possible to avoid performance issues.
 - As a result, the game runs at maximum quality (unreal engine 5.0 default), without creating problems, even on not very powerful Laptops.
+
+## #A bit of coding
+
+- Link : []()
+- Link B: []()
+
+## #Organizzazzione (c)
