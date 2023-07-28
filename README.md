@@ -12,8 +12,22 @@ To create this game, I used unreal engine Visual Scripting Blueprints as they ar
 - As a result, the game runs at maximum quality (unreal engine 5.0 default), without creating problems, even on not very powerful Laptops.
 
 ## #A bit of coding
+### #Wall
+When you create new rooms the new walls spawn left and right based on the current wall. If you are looking at a wall turned 90°, the coordinates will change. To find the exact position I have created and used functions that calculate your position by performing operations with vectors.
+- You can find the function here: [click here](https://blueprintue.com/blueprint/hsnp327y/)
+- You can fine the spawn process here: [click here](https://blueprintue.com/blueprint/z5vy5r16/)
 
-- Link : []()
-- Link B: []()
+### #how Rooms are spawned
+- The player performs a raycast
+- If he hits the wall from the right side, he asks the wall to spawn the "Room controller"
+- The hit wall is destroyed
+- The room controller is the one who manages Everything
 
-## #Organizzazzione (c)
+**Image**
+The Room Controller is the actor who
+- Manages the spawn of all obstacles, buffs and debuffs based on the type of Room
+- Change the type of wall based on whether or not it's a "Wall Jump" room
+- Destroys all actors inside the "room" when the player dies or gets too far away
+- Assign buffs or debuffs
+  
+#### #A bit of organization
