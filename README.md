@@ -17,9 +17,9 @@ To create this game, I used unreal engine Visual Scripting Blueprints as they ar
 
 ## #A bit of coding
 
-<hr>
 ### #Wall
 
+<hr>
 When you create new rooms the new walls spawn left and right based on the current wall. If you are looking at a wall turned 90°, the coordinates will change. To find the exact position I have created and used functions that calculate your position by performing operations with vectors.
 - You can find the function here: [click here](https://blueprintue.com/blueprint/hsnp327y/)
 - You can fine the spawn process here: [click here](https://blueprintue.com/blueprint/z5vy5r16/)
