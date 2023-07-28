@@ -31,3 +31,6 @@ The Room Controller is the actor who
 - Assign buffs or debuffs
   
 #### #A bit of organization
+
+- All variables, event functions, meshes... have been named correctly to facilitate their search, management and use
+- During the alpha test, i used "Gray Box" to test your code without interference or distraction
