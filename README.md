@@ -23,7 +23,7 @@ When you create new rooms the new walls spawn left and right based on the curren
 - The hit wall is destroyed
 - The room controller is the one who manages Everything
 
-**Image**
+[F1](/BP_RC.png)
 The Room Controller is the actor who
 - Manages the spawn of all obstacles, buffs and debuffs based on the type of Room
 - Change the type of wall based on whether or not it's a "Wall Jump" room
@@ -31,6 +31,11 @@ The Room Controller is the actor who
 - Assign buffs or debuffs
   
 #### #A bit of organization
-
+If you want to see more aboyt my BluePrints visual code, please, ask.
+- Each piece of code is commented and grouped to help my understanding (or that of other future developers) even after months.
+[F1](/BP_FirstPerson.png)
 - All variables, event functions, meshes... have been named correctly to facilitate their search, management and use
+[F1](/Screen_Folder_0.png)
+- I also used "Category" to organize more efficiently Variables, Custom Events and Functions inside blueprints
+[F1](/Screen_Folder_2.png)
 - During the alpha test, i used "Gray Box" to test your code without interference or distraction
